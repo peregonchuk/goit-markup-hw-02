@@ -8,21 +8,23 @@
     <title>Студия</title>
   </head>
   <body>
-    <header>
-      <a href="" rel="nofollow noopener noreferrer">WebStudio</a>
-      <div>
-        <nav>
-          <ul>
-            <li><a href="#Студия">Студия</a></li>
-            <li><a href="#Портфолио">Портфолио</a></li>
-            <li><a href="#Контакты">Контакты</a></li>
-          </ul>
-        </nav>
-      </div>
-      <div>
+    <header class="header">
+      <nav class="site-nav">
+        <a href="">
+          <span class="logo-accent">Web</span>
+          <span class="logo-black">Studio</span>
+        </a>
+
         <ul>
-          <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-          <li><a href="tel:+380961111111">+380961111111</a></li>
+          <li><a class="link" href="./index.html">Студия</a></li>
+          <li><a id="portfolio" class="link two" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="link three" href="./index.html">Контакты</a></li>
+        </ul>
+      </nav>
+      <div class="contact">
+        <ul>
+          <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
@@ -65,17 +67,19 @@
         <div>
           <ul>
             <li>
-              <img src="./images/layout.jpg" alt="Макет работы" width="300" height="300" />
+              <img src="./images/Other/layout.jpg" alt="Макет работы" width="300" height="300" />
             </li>
             <li>
               <img
-                src="./images/iphone.jpg"
+                src="./images/Other/iphone.jpg"
                 alt="Проверка с помощью смартфона"
                 width="300"
                 height="300"
               />
             </li>
-            <li><img src="./images/ipad.jpg" alt="Цветная палитра" width="300" height="300" /></li>
+            <li>
+              <img src="./images/Other/ipad.jpg" alt="Цветная палитра" width="300" height="300" />
+            </li>
           </ul>
         </div>
       </section>
@@ -84,22 +88,27 @@
         <div>
           <ul>
             <li>
-              <img src="./images/ihor.jpg" alt="Игорь Демьяненко" width="300" height="300" />
+              <img src="./images/Staff/ihor.jpg" alt="Игорь Демьяненко" width="300" height="300" />
               <h3>Игорь Демьяненко</h3>
               <p>Product Designer</p>
             </li>
             <li>
-              <img src="./images/olga.jpg" alt="Ольга Репина" width="300" height="300" />
+              <img src="./images/Staff/olga.jpg" alt="Ольга Репина" width="300" height="300" />
               <h3>Ольга Репина</h3>
               <p>Frontend Developer</p>
             </li>
             <li>
-              <img src="./images/nikolay.jpg" alt="Николай Тарасов" width="300" height="300" />
+              <img
+                src="./images/Staff/nikolay.jpg"
+                alt="Николай Тарасов"
+                width="300"
+                height="300"
+              />
               <h3>Николай Тарасов</h3>
               <p>Marketing</p>
             </li>
             <li>
-              <img src="./images/michael.jpg" alt="Михаил Ермаков" width="300" height="300" />
+              <img src="./images/Staff/michael.jpg" alt="Михаил Ермаков" width="300" height="300" />
               <h3>Михаил Ермаков</h3>
               <p>UI Designer</p>
             </li>
@@ -107,15 +116,29 @@
         </div>
       </section>
     </main>
-    <footer>
-      <a href="" rel="nofollow noopener noreferrer">WebStudio</a>
+    <footer class="page-footer">
+      <a href="">
+        <span class="logo-accent">Web</span>
+        <span class="logo-white">Studio</span>
+      </a>
+
       <address>
         <ul>
           <li>
-            <a href="https://goo.gl/maps/ocB1v3BhjYpGkEf58">г. Киев, пр-т Леси Украинки, 26</a>
+            <a
+              class="text-info"
+              href="https://goo.gl/maps/ocB1v3BhjYpGkEf58"
+              rel="noopener noreferrer"
+              target="_blank"
+              >г. Киев, пр-т Леси Украинки, 26</a
+            >
           </li>
-          <li><a href="mailtto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+380991111111</a></li>
+          <li>
+            <a class="info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+          <li>
+            <a class="info" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
         </ul>
       </address>
     </footer>
