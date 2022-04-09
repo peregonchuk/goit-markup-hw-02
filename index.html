@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Студия</title>
   </head>
-  <body>
+  <body class="page">
     <header class="header">
       <nav class="site-nav">
         <a href="">
@@ -16,54 +16,59 @@
         </a>
 
         <ul>
-          <li><a class="link" href="./index.html">Студия</a></li>
-          <li><a id="portfolio" class="link two" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="link three" href="./index.html">Контакты</a></li>
+          <li><a class="nav-link" href="./index.html">Студия</a></li>
+          <li><a class="nav-link" class="link two" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-link" href="./index.html">Контакты</a></li>
         </ul>
       </nav>
       <div class="contact">
         <ul>
-          <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li>
+            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
           <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
       </div>
     </header>
     <main>
-      <section>
-        <h1>
+      <section class="main-screen">
+        <h1 class="main-screen__title">
           ЭФФЕКТИВНОЕ РЕШЕНИЕ
           <br />
           ДЛЯ ВАШЕГО БИЗНЕСА
         </h1>
-        <button type="button">Заказать услугу</button>
+        <button class="main-screen__button" type="button">Заказать услугу</button>
       </section>
-      <section>
-        <h2>Преимущества</h2>
+      <section class="benefits">
         <ul>
           <li>
-            <h3>Внимание к деталям</h3>
-            <p>Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+            <h3 class="benefits-title">Внимание к деталям</h3>
+            <p class="benefits-subtitle">
+              Идейные соображения, а также начало повседневной работы по формированию позиции.
+            </p>
           </li>
           <li>
-            <h3>Пунктуальность</h3>
-            <p>
+            <h3 class="benefits-title">Пунктуальность</h3>
+            <p class="benefits-subtitle">
               Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
             </p>
           </li>
           <li>
-            <h3>Планирование</h3>
-            <p>
+            <h3 class="benefits-title">Планирование</h3>
+            <p class="benefits-subtitle">
               Равным образом консультация с широким активом в значительной степени обуславливает.
             </p>
           </li>
           <li>
-            <h3>Современные технологии</h3>
-            <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+            <h3 class="benefits-title">Современные технологии</h3>
+            <p class="benefits-subtitle">
+              Значимость этих проблем настолько очевидна, что реализация плановых заданий.
+            </p>
           </li>
         </ul>
       </section>
-      <section>
-        <h2>Чем мы занимаемся</h2>
+      <section class="tasks">
+        <h2 class="tasks-title title">Чем мы занимаемся</h2>
         <div>
           <ul>
             <li>
@@ -83,19 +88,19 @@
           </ul>
         </div>
       </section>
-      <section>
-        <h2>Наша команда</h2>
+      <section class="staff">
+        <h2 class="staff-title title">Наша команда</h2>
         <div>
           <ul>
             <li>
               <img src="./images/Staff/ihor.jpg" alt="Игорь Демьяненко" width="300" height="300" />
-              <h3>Игорь Демьяненко</h3>
-              <p>Product Designer</p>
+              <h3 class="staff-name">Игорь Демьяненко</h3>
+              <p class="staff-job">Product Designer</p>
             </li>
             <li>
               <img src="./images/Staff/olga.jpg" alt="Ольга Репина" width="300" height="300" />
-              <h3>Ольга Репина</h3>
-              <p>Frontend Developer</p>
+              <h3 class="staff-name">Ольга Репина</h3>
+              <p class="staff-job">Frontend Developer</p>
             </li>
             <li>
               <img
@@ -104,20 +109,20 @@
                 width="300"
                 height="300"
               />
-              <h3>Николай Тарасов</h3>
-              <p>Marketing</p>
+              <h3 class="staff-name">Николай Тарасов</h3>
+              <p class="staff-job">Marketing</p>
             </li>
             <li>
               <img src="./images/Staff/michael.jpg" alt="Михаил Ермаков" width="300" height="300" />
-              <h3>Михаил Ермаков</h3>
-              <p>UI Designer</p>
+              <h3 class="staff-name">Михаил Ермаков</h3>
+              <p class="staff-job">UI Designer</p>
             </li>
           </ul>
         </div>
       </section>
     </main>
     <footer class="page-footer">
-      <a href="">
+      <a href="./index.html">
         <span class="logo-accent">Web</span>
         <span class="logo-white">Studio</span>
       </a>
