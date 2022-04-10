@@ -6,29 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>Студия</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body class="page">
+  <body>
     <header class="header">
       <nav class="site-nav">
-        <a href="./index.html">
+        <a class="logo-black link" href="./index.html">
           <span class="logo-accent">Web</span>
-          <span class="logo-black">Studio</span>
+          Studio
         </a>
-
-        <ul>
-          <li><a class="nav-link" href="./index.html">Студия</a></li>
-          <li><a class="nav-link" href="./portfolio.html">Портфолио</a></li>
-          <li><a class="nav-link" href="./index.html">Контакты</a></li>
+        <ul class="list">
+          <li><a class="nav-link nav-link_active link" href="./index.html">Студия</a></li>
+          <li><a class="nav-link link" href="./portfolio.html">Портфолио</a></li>
+          <li><a class="nav-link link" href="./index.html">Контакты</a></li>
         </ul>
       </nav>
-      <div class="contact">
-        <ul>
-          <li>
-            <a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-          </li>
-          <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
-        </ul>
-      </div>
+      <ul class="list">
+        <li>
+          <a class="contact-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+        </li>
+        <li><a class="contact-link link" href="tel:+380961111111">+38 096 111 11 11</a></li>
+      </ul>
     </header>
     <main>
       <section class="main-screen">
@@ -40,7 +41,8 @@
         <button class="main-screen__button" type="button">Заказать услугу</button>
       </section>
       <section class="benefits">
-        <ul>
+        <h2 class="benefits-main-title">Преимущества</h2>
+        <ul class="list">
           <li>
             <h3 class="benefits-title">Внимание к деталям</h3>
             <p class="benefits-subtitle">
@@ -69,69 +71,55 @@
       </section>
       <section class="tasks">
         <h2 class="tasks-title title">Чем мы занимаемся</h2>
-        <div>
-          <ul>
-            <li>
-              <img src="./images/Other/layout.jpg" alt="Макет работы" width="300" height="300" />
-            </li>
-            <li>
-              <img
-                src="./images/Other/iphone.jpg"
-                alt="Проверка с помощью смартфона"
-                width="300"
-                height="300"
-              />
-            </li>
-            <li>
-              <img src="./images/Other/ipad.jpg" alt="Цветная палитра" width="300" height="300" />
-            </li>
-          </ul>
-        </div>
+        <ul class="list">
+          <li>
+            <img src="./images/Other/layout.jpg" alt="Макет работы" width="370" />
+          </li>
+          <li>
+            <img src="./images/Other/iphone.jpg" alt="Проверка с помощью смартфона" width="370" />
+          </li>
+          <li>
+            <img src="./images/Other/ipad.jpg" alt="Цветная палитра" width="370" />
+          </li>
+        </ul>
       </section>
       <section class="staff">
         <h2 class="staff-title title">Наша команда</h2>
-        <div>
-          <ul>
-            <li>
-              <img src="./images/Staff/ihor.jpg" alt="Игорь Демьяненко" width="300" height="300" />
-              <h3 class="staff-name">Игорь Демьяненко</h3>
-              <p class="staff-job">Product Designer</p>
-            </li>
-            <li>
-              <img src="./images/Staff/olga.jpg" alt="Ольга Репина" width="300" height="300" />
-              <h3 class="staff-name">Ольга Репина</h3>
-              <p class="staff-job">Frontend Developer</p>
-            </li>
-            <li>
-              <img
-                src="./images/Staff/nikolay.jpg"
-                alt="Николай Тарасов"
-                width="300"
-                height="300"
-              />
-              <h3 class="staff-name">Николай Тарасов</h3>
-              <p class="staff-job">Marketing</p>
-            </li>
-            <li>
-              <img src="./images/Staff/michael.jpg" alt="Михаил Ермаков" width="300" height="300" />
-              <h3 class="staff-name">Михаил Ермаков</h3>
-              <p class="staff-job">UI Designer</p>
-            </li>
-          </ul>
-        </div>
+        <ul class="list">
+          <li>
+            <img src="./images/Staff/ihor.jpg" alt="Игорь Демьяненко" width="270" />
+            <h3 class="staff-name">Игорь Демьяненко</h3>
+            <p class="staff-job">Product Designer</p>
+          </li>
+          <li>
+            <img src="./images/Staff/olga.jpg" alt="Ольга Репина" width="270" />
+            <h3 class="staff-name">Ольга Репина</h3>
+            <p class="staff-job">Frontend Developer</p>
+          </li>
+          <li>
+            <img src="./images/Staff/nikolay.jpg" alt="Николай Тарасов" width="270" />
+            <h3 class="staff-name">Николай Тарасов</h3>
+            <p class="staff-job">Marketing</p>
+          </li>
+          <li>
+            <img src="./images/Staff/michael.jpg" alt="Михаил Ермаков" width="270" />
+            <h3 class="staff-name">Михаил Ермаков</h3>
+            <p class="staff-job">UI Designer</p>
+          </li>
+        </ul>
       </section>
     </main>
     <footer class="page-footer">
-      <a href="./index.html">
+      <a class="logo-white link" href="./index.html">
         <span class="logo-accent">Web</span>
-        <span class="logo-white">Studio</span>
+        Studio
       </a>
 
       <address>
-        <ul>
+        <ul class="list">
           <li>
             <a
-              class="text-info"
+              class="text-info link"
               href="https://goo.gl/maps/ocB1v3BhjYpGkEf58"
               rel="noopener noreferrer"
               target="_blank"
@@ -139,10 +127,10 @@
             >
           </li>
           <li>
-            <a class="info" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="info link" href="mailto:info@devstudio.com">info@devstudio.com</a>
           </li>
           <li>
-            <a class="info" href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="info link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>

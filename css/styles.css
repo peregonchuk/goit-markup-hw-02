@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Oleo+Script&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap');
 :root {
   --title-text-color: #212121;
   --text-color: #757575;
@@ -10,28 +9,16 @@
   --hover-focus-button: #188ce8;
 }
 
-.page {
-  background-color: var(--text-white-color);
-  color: var(--text-color);
-
-  font-family: Roboto, sans-serif;
-  font-weight: 400;
+body {
+  font-family: 'Roboto', Raleway, sans-serif;
   font-size: 14px;
-  line-height: 1.17;
   letter-spacing: 0.03em;
 }
-ul {
+.list {
   list-style-type: none;
 }
-a {
+.link {
   text-decoration: none;
-}
-.title-portfolio {
-  font-weight: 700;
-  font-size: 24px;
-  line-height: 0.5;
-  letter-spacing: 0.03em;
-  color: var(--text-color);
 }
 
 /* -------------------HEADER---------------------*/
@@ -41,13 +28,8 @@ a {
 .site-nav {
 }
 .logo-accent {
-  font-family: 'Raleway', sans-serif;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.2;
-  letter-spacing: 0.03em;
   color: var(--accent-color);
-  margin-right: -4px;
+  margin-right: -6px;
 }
 .logo-black {
   font-family: 'Raleway', sans-serif;
@@ -63,11 +45,14 @@ a {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
-  text-decoration: none;
 }
 
 .site-nav .nav-link:hover,
 .site-nav .nav-link:focus {
+  color: var(--accent-color);
+}
+
+.nav-link_active {
   color: var(--accent-color);
 }
 
@@ -111,26 +96,24 @@ a {
   background: var(--accent-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
-  margin: 0px auto;
   cursor: pointer;
 }
 
 .benefits {
 }
 
+.benefits-main-title {
+  display: none;
+}
 .benefits-title {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
-  letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-text-color);
 }
 
 .benefits-subtitle {
-  font-size: 14px;
   line-height: 1.71;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 .tasks {
@@ -141,26 +124,23 @@ a {
   font-size: 36px;
   line-height: 1.16;
   text-align: center;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .staff {
-  background-color: #f5f4fa;
+  background-color: var(--staff-bcgcolor);
 }
 
 .staff-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--title-text-color);
 }
 
 .staff-job {
   font-size: 16px;
   line-height: 1.18;
-  letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
@@ -171,15 +151,15 @@ a {
 }
 
 .logo-white {
-  font-family: 'Raleway';
+  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
+  line-height: 1.19;
   color: var(--text-white-color);
 }
 
 .text-info {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -187,6 +167,7 @@ a {
 }
 
 .info {
+  font-style: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
@@ -206,6 +187,10 @@ a {
 /*--------------- Portfolio------------------ */
 
 /*-------------------- MAIN------------------ */
+.title-portfolio {
+  display: none;
+}
+
 .button-selector-type {
   background: var(--staff-bcgcolor);
   border-radius: 4px;
@@ -246,6 +231,10 @@ a {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-white-color);
+}
+
+.projects-title {
+  display: none;
 }
 
 .card {
