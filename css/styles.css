@@ -13,12 +13,22 @@ body {
   font-family: 'Roboto', Raleway, sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
+  color: var(--title-text-color);
+  background-color: #ffffff;
+}
+
+address {
+  font-style: normal;
 }
 .list {
   list-style-type: none;
 }
 .link {
   text-decoration: none;
+}
+
+.hidden {
+  visibility: hidden;
 }
 
 /* -------------------HEADER---------------------*/
@@ -29,7 +39,6 @@ body {
 }
 .logo-accent {
   color: var(--accent-color);
-  margin-right: -6px;
 }
 .logo-black {
   font-family: 'Raleway', sans-serif;
@@ -47,8 +56,8 @@ body {
   color: var(--title-text-color);
 }
 
-.site-nav .nav-link:hover,
-.site-nav .nav-link:focus {
+.nav-link:hover,
+.nav-link:focus {
   color: var(--accent-color);
 }
 
@@ -64,8 +73,8 @@ body {
   color: var(--text-color);
 }
 
-.contact .contact-link:hover,
-.contact .contact-link:focus {
+.contact-link:hover,
+.contact-link:focus {
   color: var(--accent-color);
 }
 
@@ -85,6 +94,7 @@ body {
 }
 
 .main-screen__button {
+  font-family: 'Roboto', Raleway, sans-serif;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -102,10 +112,8 @@ body {
 .benefits {
 }
 
-.benefits-main-title {
-  display: none;
-}
 .benefits-title {
+  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -187,16 +195,8 @@ body {
 /*--------------- Portfolio------------------ */
 
 /*-------------------- MAIN------------------ */
-.title-portfolio {
-  display: none;
-}
-
 .button-selector-type {
-  background: var(--staff-bcgcolor);
-  border-radius: 4px;
-}
-
-.button-selector-type {
+  font-family: 'Roboto', Raleway, sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
@@ -204,6 +204,8 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-text-color);
   cursor: pointer;
+  background: var(--staff-bcgcolor);
+  border-radius: 4px;
 }
 
 .button-selector-type:hover,
@@ -231,10 +233,6 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-white-color);
-}
-
-.projects-title {
-  display: none;
 }
 
 .card {
